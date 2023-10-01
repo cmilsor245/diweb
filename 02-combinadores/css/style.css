@@ -1,3 +1,12 @@
+/*
+  @file: style.css
+  @author: Christian Millán Soria
+  @created: 01/10/2023
+  @license: MIT
+  @contact: christiaanmillaan1313@gmail.com
+  @info: stylesheet for "02-combinadores"
+*/
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 33px;
   font-family: sans-serif;
