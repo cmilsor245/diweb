@@ -1,0 +1,48 @@
+/*
+  @file: style.css
+  @author: Christian Millán Soria
+  @created: 01/10/2023
+  @license: MIT
+  @contact: christiaanmillaan1313@gmail.com
+  @info: stylesheet for "01-selectores"
+*/
+
+h2 {
+  color: blue;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+#section {
+  border: 2px dashed red;
+}
+
+section h2 {
+  text-align: center;;
+}
+
+.😁 {
+  color: darkblue;
+}
+
+*[href] { /* todos los elementos con un atributo "href" */
+  text-decoration: none;
+}
+
+*[href="https://facebook.org"] { /* todos los elementos con un atributo "href=" cuyo valor sea "https://facebook.org" */
+  color: red;
+}
+
+*[href^="hsttps"] { /* todos los elementos cuyo "href" comience por "hsttps" */
+  color: green;
+}
+
+*[href*=".org"] { /* todos los elementos cuyo "href" termine por ".org" */
+  background-color: orange;
+}
+
+*[href*="gmail"] {
+  background-color: cyan;
+}
