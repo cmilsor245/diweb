@@ -1,11 +1,13 @@
 * {
   /* border-top: 10px solid #757575; */
+  box-sizing: border-box;
 }
 
 body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #757575; /* solo se propagan los estilos aplicados a texto en sus hijos, los demás no se heredan */
+  position: relative;
 }
 
 .main-header {
@@ -77,6 +79,9 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  width: 300px;
+  padding: 0 50px;
+  border: 0 20px;
 }
 
 li {
@@ -114,4 +119,17 @@ li:nth-child(even) {
 
 #copyright {
   font-size: 16px;
+}
+
+button {
+  position: absolute;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px;
+  bottom: 50px;
+  right: 50px;
+}
+
+.red {
+  color: red;
 }
