@@ -12,6 +12,17 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
 }
 
 /* se debería segui este orden de estilado para los enlaces para que no s esobreescriban entre ellos (lvha) */
@@ -46,6 +57,11 @@ h1 {
   font-style: italic;
 }
 
+main {
+  display: flex;
+  gap: 20px;
+}
+
 h2 {
   font-size: 40px;
 }
@@ -54,6 +70,12 @@ h2 {
 /* header p:first-child {
   color: red;
 } */
+
+.author-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 
 #author {
   font-style: italic;
@@ -79,13 +101,16 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  width: 300px;
+  width: 500px;
   padding: 0 50px;
   border: 0 20px;
+  height: fit-content;
 }
 
 li {
   font-size: 20px;
+  display: flex;
+  gap: 10px;
 }
 
 li:first-child {
