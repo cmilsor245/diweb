@@ -16,6 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+
 }
 
 .links {
@@ -58,8 +59,11 @@ h1 {
 }
 
 main {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
 }
 
 h2 {
@@ -95,6 +99,10 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+}
+
+article {
+  margin-bottom: 0;
 }
 
 aside {
@@ -157,4 +165,9 @@ button {
 
 .red {
   color: red;
+}
+
+footer {
+  grid-column: 1 / span 2;
+  background-color: #1098ad;
 }
