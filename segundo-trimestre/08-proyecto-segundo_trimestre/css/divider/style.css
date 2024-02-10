@@ -1,0 +1,10 @@
+.divider {
+  height: 200px;
+  background-color: var(--primario);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--asap-bolditalic);
+  font-size: 32px;
+  color: var(--neutral-light);
+}
