@@ -46,6 +46,14 @@
       - medium
     - kameron
       - regular
+
+  ------------------------------------------------------------------------------------------------
+
+  - escalas utilizadas para espaciados, tamaños de fuente y otros tamaños
+    - escala de 2
+      2 / 4 / 6 / 8 / 10 / 12 / 14 / 16 / 18 / 20 / 22 / 24 / 26 / 28 / 30 / 32...
+    - escala de 5
+      5 / 10 / 15 / 20 / 25 / 30 / 35 / 40 / 45 / 50 / 55 / 60 / 65 / 70 / 75...
 */
 
 @font-face {
@@ -160,6 +168,11 @@
   padding: 0;
   box-sizing: border-box;
   cursor: default;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 ::selection {

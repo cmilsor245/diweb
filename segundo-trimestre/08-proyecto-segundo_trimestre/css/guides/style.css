@@ -74,6 +74,10 @@
   display: none;
 }
 
+.guide img {
+  width: 100% !important;
+}
+
 .guide-text h2 {
   font-family: var(--asap-regular);
   font-size: 22px;
@@ -82,4 +86,91 @@
 .guide-text p {
   font-family: var(--kameron-regular);
   font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1960px) {
+  .guide {
+    width: fit-content;
+  }
+
+  .guide-overlay {
+    margin: 0;
+  }
+
+  .guide img {
+    width: 200px;
+  }
+
+  .guide-text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .guide-text h2 {
+    font-size: 18px;
+  }
+
+  .guide-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .guides-section {
+    padding: 60px 10%;
+  }
+
+  .guide-text h2 {
+    font-size: 22px;
+  }
+
+  .guide-text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 890px) {
+  .guides {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guide {
+    width: 100%;
+  }
+
+  .guide-text h2 {
+    font-size: 26px;
+  }
+
+  .guide-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .guides-section {
+    padding: 60px 5%;
+  }
+
+  .guide-text h2 {
+    font-size: 20px;
+  }
+
+  .guide-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .guide-text h2 {
+    font-size: 18px;
+  }
+
+  .guide-text p {
+    font-size: 12px;
+  }
 }

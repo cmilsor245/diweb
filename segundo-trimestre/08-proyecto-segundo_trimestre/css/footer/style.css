@@ -52,6 +52,7 @@
 .footer-internacional-columnas {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 .logo--redes-sociales {
@@ -77,4 +78,39 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1270px) {
+  .contenido-footer {
+    flex-direction: column;
+  }
+
+  .textos-footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .barra-divisoria-footer {
+    display: none;
+  }
+
+  .logo--redes-sociales {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .barra-divisoria-footer--segundo-wrapper {
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: var(--neutral-light-hover);
+  }
+
+  .redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
