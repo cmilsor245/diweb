@@ -305,7 +305,7 @@
   .offers {
     overflow-x: scroll;
     scrollbar-width: thin;
-    scrollbar-color: var(--primario-dark-active) transparent;
+    scrollbar-color: var(--neutral-darkest) transparent;
     overflow-y: visible;
   }
 
